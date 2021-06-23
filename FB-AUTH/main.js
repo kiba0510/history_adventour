@@ -1,6 +1,6 @@
 const signupform = document.querySelector('#signup-form'); 
 
-
+//Register user
 signupform.addEventListener('submit', (e) => {
     e.preventDefault();
     
@@ -17,8 +17,7 @@ signupform.addEventListener('submit', (e) => {
      });
 });
 
-// Login
-
+// Login user
 const signinForm = document.querySelector('#login-form');
 
 signinForm.addEventListener('submit', (e) => {
@@ -37,7 +36,6 @@ signinForm.addEventListener('submit', (e) => {
 })
 
 // Logout
-
 const logout = document.querySelector('#logout');
 
 logout.addEventListener('click', (e) =>{
@@ -49,7 +47,6 @@ logout.addEventListener('click', (e) =>{
 
 // Events 
 // list for auth states changed
-
 firebase.auth().onAuthStateChanged(user => {
     if (user) {
         console.log('auth: sign in')
@@ -58,7 +55,7 @@ firebase.auth().onAuthStateChanged(user => {
         .then((QuerySnapshot) => {
             console.log(QuerySnapshot.docs);
         });
-        
+ 
     } else {
         console.log('auth: sing out' )
     }
