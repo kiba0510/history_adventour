@@ -5,6 +5,7 @@ const router = Router();
 const {Firestore} = require('@google-cloud/firestore');
 const firestore = new Firestore();
 
+//Create new user
 router.post('/api/users', async (req, res) => {
     try {
         const document = firestore.collection('users').doc();
@@ -21,6 +22,7 @@ router.post('/api/users', async (req, res) => {
     }
 });
 
+//Query user by id
 router.get('/api/users/:user_id', async(req, res) => {
     try {
             const doc = firestore.collection('users').doc(req.params.user_id);
@@ -32,6 +34,7 @@ router.get('/api/users/:user_id', async(req, res) => {
         }
 });
 
+//Query all users
 router.get("/api/users", async (req, res) => {
     try {
         const query = firestore.collection('users');
@@ -48,6 +51,7 @@ router.get("/api/users", async (req, res) => {
     }
 });
 
+//Delete an user by user id
 router.delete ("/api/users/:user_id", async(req, res) => {
     try {
         const document = firestore.collection('users').doc(req.params.user_id);
@@ -58,6 +62,7 @@ router.delete ("/api/users/:user_id", async(req, res) => {
     }
 });
 
+//Update user by id
 router.put("/api/users/:user_id", async (req, res) =>{
     try {
         const document = firestore.collection('users').doc(req.params.user_id);
