@@ -5,6 +5,8 @@ History AdvenTour is an app built with the idea to help people to learn in a fun
 ## Installing
 Just go to the [Google Store]() and search: ```History AdvenTour``` and click Download.
 
+Also Check Out our [landing page](https://fb-api-7cc35.web.app/#/) :smiley:
+
 ## Usage
 - Open the app and instantly locate all monuments nearby shown in the map.
 - Go to the monument you'd like to learn about and touch the camera icon, then point the camera to the monument.
