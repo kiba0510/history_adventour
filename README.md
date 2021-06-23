@@ -1,6 +1,15 @@
 # History AdvenTour
 
 History AdvenTour is an app built with the idea to help people to learn in a fun way about the history of a city, taking the users to the monument and showing them a 3D model in AR of the given monument, that same monumet will talk to you and tell his own history, that way we will all learn about our city.
+
+## Installing
+Just go to the [Google Store]() and search: ```History AdvenTour``` and click Download.
+
+## Usage
+- Open the app and instantly locate all monuments nearby shown in the map.
+- Go to the monument you'd like to learn about and touch the camera icon, then point the camera to the monument.
+- Watch how the monument itself tells you it's history, then answer 3 simple questions and earn experience to level up.
+
 ## Deployment
 
 This app was deployed using [Firebase](https://firebase.google.com/)
