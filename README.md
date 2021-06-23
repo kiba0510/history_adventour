@@ -1,6 +1,9 @@
 # History AdvenTour
 
-History AdvenTour is an app built with the idea to help people to learn in a fun way about the history of a city, taking the users to the monument and showing them a 3D model in AR of the given monument, that same monumet will talk to you and tell his own history, that way we will all learn about our city.
+History AdvenTour is an app built with the idea to help people to learn in a fun way about the history of a city, the idea start one day I saw several tourists trying to understand the history of a historic carácter in a park, and they could not understand it because it was in Spanish, then an idea came to my head, how can I help others to understand the history in their own languages?
+
+Bringing together various programming tools such as firebase, vue.js, html, unity and a team, thus History AdvenTour was born, this is a GPS-based mobile application that helps tourists, students and everyone to find historical landmarks throughout the city in a realistic augmented reality environment where you can find the 3D model of the place or historical character and interact with it in different languages (written or in audio) to get to know it, also helping people with reduced vision or hearing. 
+
 
 ## Installing
 Just go to the [Google Store]() and search: ```History AdvenTour``` and click Download.
