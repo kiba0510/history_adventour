@@ -6,8 +6,7 @@ const router = Router();
 const {Firestore} = require("@google-cloud/firestore");
 const firestore = new Firestore();
 
-
-
+//Create new places
 router.post("/api/places", async(req, res) => {
         try {
          // Enter new data into the document.
@@ -25,6 +24,7 @@ router.post("/api/places", async(req, res) => {
     }
 });
 
+//Query sites by sites_id
 router.get("/api/places/:sites_id", async(req,res) => {
     try {
         const doc = firestore.collection("sites").doc(req.params.sites_id);
@@ -36,6 +36,7 @@ router.get("/api/places/:sites_id", async(req,res) => {
     }
 });
 
+//Query all places 
 router.get("/api/places", async (req, res) => {
     try {
         const query = firestore.collection("sites");
@@ -51,6 +52,7 @@ router.get("/api/places", async (req, res) => {
     }
 });
 
+//Delete sites by sites_id
 router.delete("/api/places/:sites_id", async(req, res) => {
     try {
         const document = firestore.collection("sites").doc(req.params.sites_id);
@@ -61,6 +63,7 @@ router.delete("/api/places/:sites_id", async(req, res) => {
     }
 });
 
+//Update sites by sites id
 router.put("/api/places/:sites_id", async(req, res) => {
     try {
         const document = firestore.collection("sites").doc(req.params.sites_id);
@@ -84,5 +87,3 @@ router.put("/api/places/:sites_id", async(req, res) => {
 
 
 module.exports = router
-
-
