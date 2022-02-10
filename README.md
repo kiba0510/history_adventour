@@ -1,3 +1,13 @@
+![image](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Teaser/augmented-reality-apps-t.jpg)
+
+Full Stack Developer Improving the user experience through programming languages,frameworks and tools.
+
+Dev: Jose Ramirez
+Linkedin: https://www.linkedin.com/in/jose-g-ramirez/
+Twitter: @JoseRam60707816
+Github:  https://github.com/jgra007
+
+Description:
 # History AdvenTour
 
 History AdvenTour is an app built with the idea to help people to learn in a fun way about the history of a city, the idea start one day I saw several tourists trying to understand the history of a historic carácter in a park, and they could not understand it because it was in Spanish, then an idea came to my head, how can I help others to understand the history in their own languages?
@@ -28,6 +38,11 @@ This app was deployed using [Firebase](https://firebase.google.com/)
 ## Authors
 
   - **Jose Ramirez** - [Github](https://github.com/jgra007) - [Twitter](https://twitter.com/JoseRam60707816) - [LinkedIn](https://www.linkedin.com/in/jose-g-ramirez)
+
+
+This is really a fun time learning new technologies and practice all my knowledge
+this is only the beggining improvement Ar environment creation 
+I found sometimes hard to configure depending of proyect type but with practice i will inderstand more.
   - **Julian Archbold** - [Github](https://github.com/kiba0510) - [Twitter](https://twitter.com/archbold_julian) - [LinkedIn](https://www.linkedin.com/in/julian-archbold/)
   - **Roberth Rondon** - [Github](https://github.com/RobARC) - [Twitter](https://twitter.com/rrondonc?s=09) - [LinkedIn](https://www.linkedin.com/in/roberth-rondon)
 
